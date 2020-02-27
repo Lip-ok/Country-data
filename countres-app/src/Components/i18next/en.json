@@ -1,0 +1,25 @@
+{
+  "drawingData.country": "Country:",
+  "drawingData.capital": "Capital:",
+  "drawingData.region": "Region:",
+  "drawingData.subregion": "Subregion:",
+  "drawingData.population": "Population:",
+  "drawingData.topLevelDomain": "Top level domain:",
+  "drawingData.alpha2Code": "Alpha2Code:",
+  "drawingData.alpha3Code": "Alpha3Code:",
+  "drawingData.languages": "Languages:",
+  "drawingData.borders": "Borders:",
+  "drawingData.timezones": "Timezones:",
+  "drawingData.nativeName": "Native name:",
+  "drawingData.numericCodeCountry": "Numeric code country:",
+  "drawingData.flag": "Flag:",
+
+  "app.language": "Language   ",
+  "app.currencyCode": "Enter currency code ",
+  "app.fullName": "Enter full country name ",
+  "app.shortName": "Enter short country name ",
+  "app.countryCode": "Enter country code "
+
+
+
+}

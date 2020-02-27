@@ -1,0 +1,116 @@
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    font-size: 16px;
+    color: white;
+    flex-direction: column;
+}
+.inputForm {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding-left: 200px;
+    padding-top: 100px;
+}
+.inputForm .input{
+    padding-right: 5px;
+    width: 260px;
+}
+
+.switch {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 8vh;
+    background-color: gray;
+    padding: 40px;
+}
+
+
+.inputFullName {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.alpha3CodeCountry {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.countryShortName {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+
+.currencyCode {
+    display: flex;
+    flex-direction: row;
+    padding-right: 20px;
+}
+.drawingData{
+    padding-left: 200px;
+    padding-top: 100px;
+    display: flex;
+}
+
+.DrawingData {
+    width: 40%;
+}
+
+.drawingData img.flag{
+    width: 100px;
+    height: 80px;
+}
+.drawingData .select{
+    background-color: #282c34;
+    color: white;
+    height: 32px;
+}
+.switch .title{
+    display: block;
+    width: 80px;
+}
+
+.header{
+    background-color: gray;
+    padding-left: 160px;
+}
+
+@media screen and (max-width: 600px ) {
+    .inputForm {
+        flex-direction: column;
+
+        padding-left: 70px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 600px ) {
+    .drawingData {
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 70px;
+        padding-top: 50px;
+    }
+}
+@media screen and (max-width: 600px ) {
+    .drawingData .select {
+        width: 80%;
+    }
+    .DrawingData {
+        width: 90%;
+    }
+}
+@media screen and (max-width: 600px ) {
+    .header {
+        padding-left: 100px;
+    }
+    .select{
+        margin-bottom: 30px;
+        margin-top: 30px;
+    }
+}
