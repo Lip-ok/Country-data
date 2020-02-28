@@ -114,6 +114,31 @@
         margin-top: 30px;
     }
 }
-.select{
+@media screen and (max-width: 768px ) {
+    .inputForm {
+        flex-wrap: wrap;
+    }
+    .drawingData{
+        flex-direction: column;
+    }
+    .drawingData .select {
+        width: 65%;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 1024px ) {
+    .inputForm {
+        flex-wrap: wrap;
+    }
+    .drawingData{
+        flex-direction: column;
+    }
+    .drawingData .select {
+        width: 65%;
+        margin-top: 50px;
+    }
+    .App-header {
+        font-size: 20px;
 
+    }
 }

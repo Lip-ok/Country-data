@@ -2,12 +2,14 @@
   "name": "countres-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Lip-ok.github.io/Country-data",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^3.26.12",
     "axios": "^0.19.2",
+    "gh-pages": "^2.2.0",
     "i18next": "^19.3.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -18,6 +20,8 @@
     "redux": "^4.0.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
